@@ -1,0 +1,20 @@
+Unit tests: All positive and negative test cases function level 
+Component tests: Test external interfaces of individual components (collection of functions ...). Library and compiled binary level
+System tests: Test external interfaces at system level. A system is a collection of components or subsystems.
+Performance tests: Tests done at subsystem and system level to verify that at expected production loads , time and resources (mem, cpu and disk) usage are acceptable.
+--------------------------
+
+> Unit tests
+- Test individual functions 
+- A test should be written for each test case for a function (positive and negative test cases)
+- Groups of tests can be combined into test suites for better organization.
+- Executed in dev environment rather than prod 
+- Test execution should be automated
+==> unit test structure
+// Setup
+// Action
+// Assert
+
+---------------
+TDD workflow ==> loop(red->green->refactor)
+
