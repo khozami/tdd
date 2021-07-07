@@ -1,9 +1,0 @@
-#Checkout ut
-[x] Can create instance of Checkout class.
-[x] Can add item price.
-[x] Can add an item 
-[x] Can calculate the current total
-[o] Can add multiple items and add correct total 
-[-] Can add discount rules
-[-] Can apply doscout rules to the total
-[-] Exception could be thrown for item added without price
